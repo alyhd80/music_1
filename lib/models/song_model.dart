@@ -14,7 +14,7 @@ class Song {
     Song(title: "Man Raftam", description: "az shanbe", url: "assets/music/Az Shanbe - Man Raftam.mp3", coverUrl: "assets/image/Man Raftam.jpg"),
     Song(title: "bade to", description: "wantons", url: "assets/music/Benji & Koorosh - Bade To (320).mp3", coverUrl: "assets/image/download.jpg"),
     Song(title: " namond azam", description: "az shanbe", url: "assets/music/Hichi Namoond Azam.mp3", coverUrl: "assets/image/Hichi_Namoond_Azam.jpg"),
-    Song(title: "otagh abi", description: "az shanbe", url: "assets/music/kaveh_afagh_otaghe_abi.mp3", coverUrl: "assets/image/kaveh_afagh_otaghe_abi.jpg"),
+    Song(title: "otagh abi", description: "kaveh afagh", url: "assets/music/kaveh_afagh_otaghe_abi.mp3", coverUrl: "assets/image/kaveh_afagh_otaghe_abi.jpg"),
 
 
   ];
