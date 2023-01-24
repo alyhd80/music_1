@@ -22,11 +22,11 @@ class MyApp extends StatelessWidget {
                 bodyColor: Colors.white,
                 displayColor: Colors.white,
               )),
-      initialRoute: "/song",
+      initialRoute: "/",
       getPages: [
-        GetPage(name: "/", page: () => HomeScreen()),
-        GetPage(name: "/song", page: () => SongScreen()),
-        GetPage(name: "/playlist", page: () => PlayListScreen()),
+        GetPage(name: "/", page: () => HomeScreen(),transition: Transition.leftToRight),
+        GetPage(name: "/song", page: () => SongScreen(),transition: Transition.leftToRight),
+        GetPage(name: "/playlist", page: () => PlayListScreen(),transition: Transition.leftToRight),
       ],
     );
   }
